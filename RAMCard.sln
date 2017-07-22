@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMCard.WebApi", "RAMCard.WebApi\RAMCard.WebApi.csproj", "{5D3959D5-ACBE-4ECF-8D86-30149D136BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMCard.Managers", "RAMCard.Managers\RAMCard.Managers.csproj", "{FBACA849-6BFE-44B8-9EEE-511EAB133A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMCard.Dals", "RAMCard.Dals\RAMCard.Dals.csproj", "{95E4F0BD-B1BA-4CEF-B6BA-52901A3FCEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMCard.Domain", "RAMCard.Domain\RAMCard.Domain.csproj", "{CE2B161E-58A2-4A85-90B4-7A4588C69633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMCard.Infrastructure", "RAMCard.Infrastructure\RAMCard.Infrastructure.csproj", "{1C96DCA6-8E8E-4656-927A-578A2193FC71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{5D3959D5-ACBE-4ECF-8D86-30149D136BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D3959D5-ACBE-4ECF-8D86-30149D136BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D3959D5-ACBE-4ECF-8D86-30149D136BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBACA849-6BFE-44B8-9EEE-511EAB133A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBACA849-6BFE-44B8-9EEE-511EAB133A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBACA849-6BFE-44B8-9EEE-511EAB133A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBACA849-6BFE-44B8-9EEE-511EAB133A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E4F0BD-B1BA-4CEF-B6BA-52901A3FCEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E4F0BD-B1BA-4CEF-B6BA-52901A3FCEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E4F0BD-B1BA-4CEF-B6BA-52901A3FCEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E4F0BD-B1BA-4CEF-B6BA-52901A3FCEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2B161E-58A2-4A85-90B4-7A4588C69633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2B161E-58A2-4A85-90B4-7A4588C69633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2B161E-58A2-4A85-90B4-7A4588C69633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2B161E-58A2-4A85-90B4-7A4588C69633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C96DCA6-8E8E-4656-927A-578A2193FC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C96DCA6-8E8E-4656-927A-578A2193FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C96DCA6-8E8E-4656-927A-578A2193FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C96DCA6-8E8E-4656-927A-578A2193FC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
